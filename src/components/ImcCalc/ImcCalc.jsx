@@ -1,8 +1,9 @@
 import { useState } from "react";
 import Button from "../Button/Button";
+
 import "./ImcCalc.css";
 
-const ImcCalc = () => {
+const ImcCalc = ({ calcImc }) => {
   const [height, setHeight] = useState("");
   const [weight, setWeight] = useState("");
 
@@ -57,7 +58,7 @@ const ImcCalc = () => {
           </div>
         </div>
         <div className="action-control">
-          <Button id="calc-btn" text="Calcular" />
+          <Button id="calc-btn" text="Calcular" action={calcImc} />
           <Button id="clear-btn" text="Limpar" action={clearForm} />
         </div>
       </form>
