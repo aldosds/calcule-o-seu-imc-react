@@ -1,4 +1,4 @@
-import ImcCalc from "./components/imcCalc/ImcCalc";
+import ImcCalc from "./components/ImcCalc/ImcCalc";
 
 import "./App.css";
 
