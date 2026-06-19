@@ -50,7 +50,7 @@ Antes de começar, você vai precisar ter o [Node.js](https://nodejs.org/) insta
 Se você estivesse criando este projeto do zero, o comando utilizado para iniciar o React com Vite seria:
 
 ```bash
-npm create vite@latest calcule-seu-imc -- --template react
+npm create vite@latest calcule-o-seu-imc-react -- --template react
 ```
 
 Para rodar este repositório localmente, siga os passos abaixo no seu terminal:
@@ -58,13 +58,13 @@ Para rodar este repositório localmente, siga os passos abaixo no seu terminal:
 1. **Clone o repositório:**
 
 ```bash
-   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+   git clone https://github.com/aldosds/calcule-o-seu-imc-react.git
 ```
 
 2. **Acesse a pasta do projeto:**
 
 ```bash
-    cd seu-repositorio
+    cd calcule-o-seu-imc-react
 ```
 
 3. **Instale as dependências:**
